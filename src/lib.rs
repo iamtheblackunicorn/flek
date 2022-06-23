@@ -199,7 +199,7 @@ pub fn test_all(){
     println!("{:?}",password_strength(String::from("1969HoglinSteak_@@")));
     println!("{:?}",is_secure(String::from("1969HoglinSteak")));
     println!("{:?}",is_secure(String::from("1969HoglinSteak_@@")));
-    println!("{:?}",generate_password(10));
+    println!("{:?}",generate_password(256));
 
 
 }
