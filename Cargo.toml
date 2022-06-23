@@ -1,9 +1,23 @@
 [package]
 name = "flek"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+authors = ["Alexander Abraham <youreccentricity@outlook.com>"]
+description= "A Rustacean implementation of my own algorithms to check for password security."
+homepage = "https://github.com/iamtheblackunicorn/flek"
+repository = "https://github.com/iamtheblackunicorn/flek"
+documentation = "https://github.com/iamtheblackunicorn/flek"
+readme = "README.markdown"
+keywords = [
+  "security"
+]
+categories = [
+  "security"
+]
+exclude = [
+  "/.github"
+]
 
 [dependencies]
 rand = "0.8.5"

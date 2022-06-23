@@ -1,4 +1,4 @@
-use crate::flek;
+use flek;
 
 fn main(){
     flek::test_all();
